@@ -1,26 +1,44 @@
-# 💪 Flutter Motivation Dashboard
+# 🧮 BMI Calculator App - Flutter
 
-A sleek and inspiring productivity dashboard built using Flutter.  
-This app helps you track your daily tasks like workouts, walks, cooking, and study sessions — with a motivational fire boost!
+A clean, interactive **BMI (Body Mass Index) Calculator** built using Flutter.  
+This app allows users to input height and weight, select gender, and receive categorized BMI results with image feedback and proper UI/UX flow.
 
 ---
 
 ## ✨ Features
 
-- 🌙 **Dark Theme UI**
-- 🧠 **Daily Task Cards**: Walk, Workout, Study, Cooking, Cleaning
-- 🔥 **Motivational Boost Button**: Rotating quotes via SnackBar
-- 🎯 **Progress & Stats Panel**: Tracks tasks, focus hours, and energy
-- 🧩 **Modular Code** with reusable widgets
-- 🔜 **Dynamic Task Addition (coming soon)**
+- ✅ Gender selection (Male/Female) with visual color highlighting
+- ✅ Height and weight input (in cm and kg)
+- ✅ Real-time BMI calculation using standard formula
+- ✅ Categorized output: Underweight, Normal, Overweight, Obese
+- ✅ Displays category-related images dynamically
+- ✅ Reset button to clear inputs and result
+- ✅ SnackBar feedback for:
+  - Invalid inputs
+  - Reset confirmation
+  - BMI reference info via 💡 button
+- ✅ Semi-transparent card UI for clean visuals
 
 ---
 
-## 📸 Screenshots
+## 📐 BMI Formula Used
 
-| Home Page                   | Task Grid |
-|-----------------------------|-----------|
-| ![screenshot1](output1.png) | ![screenshot1](output2.png)
+\[
+\text{BMI} = \frac{\text{Weight (kg)}}{(\text{Height (m)})^2}
+\]
+
+---
+
+## 📱 Screenshots
+
+### 🧍 Gender Selection & Input
+![Screenshot 1](./Screenshot1.png)
+
+### 📊 BMI Result Display with Category
+![Screenshot 2](./Screenshot2.png)
+
+### 🔄 Snackbar for Reset and Info
+![Screenshot 3](./Screenshot3.png)
 
 ---
 
@@ -28,13 +46,14 @@ This app helps you track your daily tasks like workouts, walks, cooking, and stu
 
 ### Prerequisites
 
-- Flutter SDK
-- Android Studio or VS Code with Flutter & Dart plugins
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Android Studio or VS Code
+- Git
 
-### Run Locally
+### How to Run the App
 
 ```bash
-git clone https://github.com/yourusername/flutter_motivation_ui.git
-cd flutter_motivation_ui
+git clone https://github.com/akshara-001/BMI-Calculator_App-Flutter-.git
+cd BMI-Calculator_App-Flutter-
 flutter pub get
 flutter run
