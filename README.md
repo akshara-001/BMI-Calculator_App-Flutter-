@@ -32,13 +32,13 @@ This app allows users to input height and weight, select gender, and receive cat
 ## 📱 Screenshots
 
 ### 🧍 Gender Selection & Input
-![Screenshot 1](./Screenshot1.png)
+![Screenshot 1](https://github.com/akshara-001/BMI-Calculator_App-Flutter-/blob/637b2066b5fb2d4cecdfb05bac117c71fbbf9068/Screenshot%20(188).png)
 
 ### 📊 BMI Result Display with Category
-![Screenshot 2](./Screenshot2.png)
+![Screenshot 2](https://github.com/akshara-001/BMI-Calculator_App-Flutter-/blob/637b2066b5fb2d4cecdfb05bac117c71fbbf9068/Screenshot%20(197).png)
 
 ### 🔄 Snackbar for Reset and Info
-![Screenshot 3](./Screenshot3.png)
+![Screenshot 3](https://github.com/akshara-001/BMI-Calculator_App-Flutter-/blob/637b2066b5fb2d4cecdfb05bac117c71fbbf9068/Screenshot%20(199).png)
 
 ---
 
